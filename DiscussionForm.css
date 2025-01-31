@@ -1,0 +1,87 @@
+/* Discussion Form Styles */
+.discussion-form-container {
+  margin: 20px 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #66a6ff 0%, #89f7fe 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.discussion-form-container h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  margin-bottom: 15px;
+  padding: 12px 20px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccd0d5;
+  font-size: 16px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+.clear-all-button {
+  background-color: #FFD700;
+  color: black;
+  padding: 12px 25px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.clear-all-button:hover {
+  background-color: #FFC107;
+  transform: translateY(-3px);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccd0d5;
+  font-size: 16px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

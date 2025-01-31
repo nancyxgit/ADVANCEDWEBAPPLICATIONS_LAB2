@@ -1,0 +1,81 @@
+/* Post Form Styles */
+.post-form-container {
+  margin: 20px 0;
+  padding: 20px;
+  background: #f4f7fb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-form-container h3 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  margin-bottom: 15px;
+  padding: 12px 20px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccd0d5;
+  font-size: 16px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+  transform: translateY(-3px);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Like/Dislike Button Styling */
+.like-dislike-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.like-dislike-buttons button {
+  width: 45%;
+  padding: 8px 15px;
+  font-size: 16px;
+}
+
+.like-dislike-buttons span {
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: bold;
+}
